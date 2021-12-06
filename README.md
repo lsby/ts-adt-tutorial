@@ -68,7 +68,7 @@ type b = 2;
 type c = a | b;
 ```
 
-意为类型 c 是`类型 a 或类型 b`, 而 a 是 1,b 是 2, 所以如果某个值的类型是 c, 那么它只可能是 1 或者 2.
+意为类型 c 是`类型 a 或 类型 b`, 而 a 是 1,b 是 2, 所以如果某个值的类型是 c, 那么它只可能是 1 或者 2.
 
 可以看到:
 
@@ -300,8 +300,8 @@ type Tree<A> = ["Tip"] | ["Node", Tree<A>, A, Tree<A>];
 它的大小是
 
 ```
-size(Tree<A>) = 1 + size(Tree<A>) * x * size(Tree<A>)
-size(Tree<A>) = 1 + x * size(Tree<A>)^2
+size(Tree<A>) = 1 + size(Tree<A>) * size(A) * size(Tree<A>)
+size(Tree<A>) = 1 + size(A) * size(Tree<A>)^2
 ```
 
 对它移项, 整理, 做泰勒展开后, 得到:
