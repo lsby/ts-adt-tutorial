@@ -6,7 +6,7 @@
 
 由于个人能力有限, 而且还在学习中, **有些地方非常有可能是错的**. 请慎重参考.
 
-另外这只是粗略的讲解, 并不是严格的定义, 如果希望了解更细节的部分可以看看[这个](https://proofassistants.stackexchange.com/questions/879/what-is-an-algebraic-data-type), 需要一些数学基础.
+另外这只是粗略的讲解, 并不是严格的定义, 如果希望了解更多细节可以参考[这个](https://proofassistants.stackexchange.com/questions/879/what-is-an-algebraic-data-type), 需要一些数学基础.
 
 发布方式:[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.zh).
 
