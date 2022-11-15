@@ -6,6 +6,8 @@
 
 由于个人能力有限, 而且还在学习中, **有些地方非常有可能是错的**. 请慎重参考.
 
+另外这只是粗略的讲解, 并不是严格的定义, 如果希望了解更细节的部分可以看看[这个](https://proofassistants.stackexchange.com/questions/879/what-is-an-algebraic-data-type), 需要一些数学基础.
+
 发布方式:[Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.zh).
 
 作者:[白羊](mailto:2451759073@qq.com).
@@ -168,7 +170,7 @@ type c = (arg: a) => b;
 
 我们现在要研究类型`c`的取值可能性.
 
-例如, 我可以实现一个函数, 它使得这个函数输入 1 时返回 true, 输入 2 时发现 false, 输入 3 时发现 true.
+例如, 我可以实现一个函数, 它使得这个函数输入 1 时返回 true, 输入 2 时返回 false, 输入 3 时返回 true.
 
 这是类型`c`的一种取值, 我们现在想知道它一共有多少种取值.
 
