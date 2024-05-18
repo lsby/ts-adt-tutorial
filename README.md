@@ -1,4 +1,4 @@
-# ts_adt
+# ts-adt
 
 本文以 typescript 为例说明 代数数据类型(ADT).
 
